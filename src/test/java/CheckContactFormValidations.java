@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 public class CheckContactFormValidations extends BaseTest {
 
-
     @Test
     public void verifyValidEmailAddress() {
         ContactPage contactPage = new ContactPage(driver);
